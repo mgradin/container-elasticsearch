@@ -1,0 +1,5 @@
+---
+# defaults file for container-elasticsearch
+VAR_ELASTICSEARCH_DIR: /opt/elasticsearch
+VAR_ELASTICSEARCH_VERSION: 7.0.0
+VAR_ELASTICSEARCH_URL: elasticsearch.example.com
