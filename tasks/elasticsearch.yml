@@ -12,8 +12,8 @@
     pull: yes
     state: started
     env:
-    - discovery.type=single-node   
-    - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      discovery.type=single-node   
+      ES_JAVA_OPTS="-Xms512m -Xmx512m"
     labels:
       traefik.backend=grafana
       "traefik.frontend.rule=Host:{{ VAR_ELASTICSEARCH_URL }}"
