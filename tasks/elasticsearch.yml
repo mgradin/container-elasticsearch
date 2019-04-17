@@ -17,7 +17,7 @@
       discovery.type=single-node
       ES_JAVA_OPTS="-Xms8g -Xmx8g"
     labels:
-      traefik.backend=grafana
+      traefik.backend=elasticsearch
       "traefik.frontend.rule=Host:{{ VAR_ELASTICSEARCH_URL }}"
       traefik.port=9200
       traefik.enable=true
